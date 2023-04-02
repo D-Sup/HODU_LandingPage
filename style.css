@@ -100,7 +100,6 @@ body {
 }
 
 .header-btn {
-  margin-left: 40px;
   padding: 15px 30px;
   border: none;
   background: #d97652;
@@ -339,6 +338,7 @@ body {
 }
 
 .footer-nav {
+  color: #767676;
   text-align: right;
   font-size: 14px;
   display: none;
