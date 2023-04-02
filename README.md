@@ -1,5 +1,6 @@
 # HODU_LandingPage
 
+<<<<<<< HEAD
 1. <a> 에 <img> 넣기
 2. 반복되는 요소 <ul> <li> 로 묶기
 3. alt 속성에 이미지 설명 곡 쓰기
@@ -14,3 +15,6 @@
 
 "#none" : 아무것도 실행하지 않으며, 페이지 최상단으로도 이동하지 않는다.
 #none을 넣어서 아무것도 실행되지 않도록
+=======
+[URL](https://d-sup.github.io/HODU_LandingPage/)
+>>>>>>> f978e653aa049df3930ff83162e83417a08b8933
