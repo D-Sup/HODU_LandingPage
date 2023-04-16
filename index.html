@@ -10,52 +10,52 @@
 </head>
 
 <body>
-  <div class="l-wrapper">
-    <div class="header-bg">
-      <header class="header">
-        <div class="top-header">
-          <h1 class="header-logo">
-            <span class="a11y-hidden">HODU 로고</span>
-            <a href="#none">
-              <img src="./images/logo.svg" alt="">
-            </a>
-          </h1>
-          <nav class="header-nav">
-            <ul>
-              <li>
-                <a href="#none">Home</a>
-              </li>
-              <li>
-                <a href="#none">About</a>
-              </li>
-              <li>
-                <a href="#none">Support</a>
-              </li>
-              <li>
-                <a class="header-btn" href="#none">
-                  Download
-                </a>
-              </li>
-            </ul>
-          </nav>
-          <img class="toogle-btn" src="./images/toggle.svg" alt="">
-        </div>
-        <div class="about">
-          <div class="about-explain">
-            <h2 class="about-headings">
-              Lorem Ipsum is simply<br>
-              dummy text of the printing and
-            </h2>
-            <p class="about-contxt">Lorem Ipsum is simply dummy text of the printing and<br>
-              typesetting industry.<br>
-              Lorem Ipsum has been the industry's standard dummy text<br>
-              ever since the 1500s, when an unknown</p>
-            <button class="about-btn">Download</button>
+  <div class="header-bg">
+    <div class="wrapper">
+        <header class="header">
+          <div class="top-header">
+            <h1 class="header-logo">
+              <a href="#none">
+                <img src="./images/logo.svg" alt="HODU 로고">
+              </a>
+            </h1>
+            <nav class="header-nav">
+              <img class="close-btn" src="./images/arrow.svg" alt="">
+              <ul>
+                <li>
+                  <a href="#none">Home</a>
+                </li>
+                <li>
+                  <a href="#none">About</a>
+                </li>
+                <li>
+                  <a href="#none">Support</a>
+                </li>
+                <li>
+                  <a class="header-btn" href="#none">
+                    Download
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <img class="toggle-btn" src="./images/toggle.svg" alt="">
           </div>
-          <img class="about-img" src="./images/cat.png" alt="박스를 머리에 뒤집어쓴 고양이 이미지">
-        </div>
-      </header>
+            <div class="about-explain">
+              <h2 class="about-headings">
+                Lorem Ipsum is simply<br>
+                dummy text of the printing and
+              </h2>
+              <p class="about-contxt">Lorem Ipsum is simply dummy text of the printing and<br>
+                typesetting industry.<br>
+                Lorem Ipsum has been the industry's standard dummy text<br>
+                ever since the 1500s, when an unknown</p>
+              <button class="about-btn" type="button">Download</button>
+            </div>
+            <img class="about-img" src="./images/cat.png" alt="박스를 머리에 뒤집어쓴 고양이 이미지">
+        </header>
     </div>
+  </div>
+  <div class="wrapper">
     <main class="main">
       <section class="section-body">
         <figure class="body-intro">
@@ -81,17 +81,17 @@
         <div class="body-gallery">
           <ul class="gallery-list">
             <li>
-              <button>
+              <button type="button">
                 <img src="./images/img_1.png" alt="캣타워에서 얼굴만 내밀고 무언가를 지켜보는 고양이 이미지">
               </button>
             </li>
             <li>
-              <button>
+              <button type="button">
                 <img src="./images/img_2.png" alt="캣타워에서 얼굴만 내밀고 무언가를 지켜보는 고양이 이미지">
               </button>
             </li>
             <li>
-              <button>
+              <button type="button">
                 <img src="./images/img_3.png" alt="나와 눈을 마주치고있는 고양이 이미지">
               </button>
             </li>
@@ -117,12 +117,22 @@
         <form class="subscribe-form">
           <div class="subscribe-inpt">
             <img src="./images/msg.svg" alt="">
-            <label for="email" class="a11y-hidden"></label>
-            <input id="email" type="email" placeholder="Enter your e-mail address">
+            <label for="email"name="email"></label>
+            <input id="email" type="email" placeholder="Enter your e-mail address" required>
           </div>
           <button type="submit" class="subscribe-btn">Subscribe</button>
         </form>
       </article>
+    <dialog>
+      <article class="modal">
+        <img src="./images/cat_face.png" alt="">
+        <h5 class="subscribe-headings">Thank you</h5>
+        <p class="subscribe-contxt">Lorem ipsum dolor sit amet.</p>
+        <form method="dialog">
+          <button type="submit">confirm</button>
+        </form>
+      </article>
+    </dialog> 
     </main>
     <footer class="footer">
       <img src="./images/img_5.png" alt="" class="footer-img">
@@ -136,22 +146,22 @@
         <ul class="share-link">
           <li>
             <a href="#none">
-              <img src="./images/sns1.svg" alt="bing 로고 이미지">
+              <img src="./images/sns1.svg" alt="bing 으로 이동하기">
             </a>
           </li>
           <li>
             <a href="#none">
-              <img src="./images/sns2.svg" alt="instagram 로고 이미지">
+              <img src="./images/sns2.svg" alt="instagram 으로 이동하기">
             </a>
           </li>
           <li>
             <a href="#none">
-              <img src="./images/sns3.svg" alt="facebook 로고 이미지">
+              <img src="./images/sns3.svg" alt="facebook 으로 이동하기">
             </a>
           </li>
           <li>
             <a href="#none">
-              <img src="./images/sns4.svg" alt="youtube 로고 이미지">
+              <img src="./images/sns4.svg" alt="youtube 으로 이동하기">
             </a>
           </li>
         </ul>
@@ -166,6 +176,7 @@
       </div>
     </footer>
   </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
